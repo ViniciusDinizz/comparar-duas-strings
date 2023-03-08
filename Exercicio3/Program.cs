@@ -9,7 +9,7 @@
         Console.Write("Segunda string: ");
         segunda = Console.ReadLine();
 
-        if(comparar(primeira, segunda))
+        if(primeira.Equals(segunda))
         {
             Console.WriteLine("São iguais.");
         }
@@ -18,7 +18,7 @@
             Console.WriteLine("São diferentes.");
         }
 
-        bool comparar(string primeira, string segunda)
+       /* bool comparar(string primeira, string segunda)
         {
             if (primeira == segunda)
             {
@@ -28,6 +28,6 @@
             {
                 return false;
             }
-        }
+        }*/
     }
 }
